@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastián Escobar Mejíaa | Portafolio de p5.js</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sebastián Escobar Mejía</h1>
+            <p>Ingeniería en Diseño de Entretenimiento Digital</p>
+            <p>Apasionado por el arte digital, el 3D, y la programación</p>
+            <a href="https://openprocessing.org/user/480772/?o=4&view=sketches" class="btn">Ver portafolio</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>
+                Estudiante de 6to semestre en Medellín, Colombia, con un interés profundo en la creación digital y la tecnología interactiva.
+                Mi pasión por los videojuegos y la programación me ha llevado a explorar el diseño de experiencias visuales en 3D y obras de arte generativo.
+                Actualmente, trabajo en proyectos de p5.js donde combino mis habilidades en código y creatividad para dar vida a animaciones y simulaciones visualmente impactantes.
+            </p>
+        </section>
+
+        <section id="portafolio"></section>
+        <section id="portafolio">
+            <div class="carousel-container">
+                <h2>Portafolio de p5.js</h2>
+                <p>Explora algunos de mis proyectos en OpenProcessing:</p>
+                <div class="grid">
+                    <div class="project">
+                        <a href="https://openprocessing.org/sketch/2432496" target="_blank">
+                            <h3>Oscilaciones Creativas</h3>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://openprocessing.org/sketch/2432501" target="_blank">
+                            <h3>Sistema de Partículas</h3>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://openprocessing.org/sketch/2432505" target="_blank">
+                            <h3>Sistema de Agentes</h3>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://openprocessing.org/sketch/2432518" target="_blank">
+                            <h3>Bounce!</h3>
+                        </a>
+                    </div>
+                    <!-- Agrega más proyectos aquí -->
+                </div>
+            </div>
+        </section>
+        
+</section>
+
+            
+        
+            
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sebastián Escobar Mejía. Todos los derechos reservados.</p>
+        <p>Encuéntrame en redes sociales:</p>
+        <div class="social">
+            <a href="https://www.instagram.com/sebas.escobar123?igsh=enBmZHp0NjJxam54" target="_blank">Instagram</a> |
+            <a href="https://github.com/SebastianEsco" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/sebasti%C3%A1n-escobar-mej%C3%ADa-133b332a0/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+
+    <script>
+    function scrollLeft() {
+        const carousel = document.querySelector('.carousel');
+        carousel.scrollBy({ left: -200, behavior: 'smooth' });
+    }
+
+    function scrollRight() {
+        const carousel = document.querySelector('.carousel');
+        carousel.scrollBy({ left: 200, behavior: 'smooth' });
+    }
+
+
+
+</script>
+
+ <!-- Cargar p5.js -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+ <!-- Cargar tu código de la simulación -->
+ <script src="Agents.js"></script>
+
+ <script src="Particles.js"></script>
+
+</body>
+</html>
